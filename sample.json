@@ -1,0 +1,40 @@
+    {
+        "before": null,
+        "after": {
+            "key": "c/e240a9c0-0816-457a-b1e3-dad1a8e83bf3/o/node/f4998f5d-3eef-4aa0-957e-818d7bbd7dbf",
+            "value": {
+                "type": 3,
+                "object": {
+                    "id": "f4998f5d-3eef-4aa0-957e-818d7bbd7dbf",
+                    "type": "kong-proxy",
+                    "labels": {
+                        "region": "ap-northeast-1",
+                        "provider": "aws",
+                        "managed-by": "Konnect",
+                        "network-id": "562562a5-67ee-4460-bac8-4ba11270a300",
+                        "dp-group-id": "b29c8a9d-dceb-4247-a61a-71778081ab8e"
+                    },
+                    "version": "3.5.0.3",
+                    "hostname": "dataplane-b29c8a9d-dceb-4247-a61a-71778081ab8e-pttd9-5f845xspf9",
+                    "last_ping": 1706812724,
+                    "created_at": 1706733201,
+                    "updated_at": 1706812724,
+                    "config_hash": "3561f7843644853b3561f7843644853b",
+                    "process_conf": {
+                        "plugins": [
+                            "bundled"
+                        ],
+                        "lmdb_map_size": "2048m",
+                        "router_flavor": "traditional_compatible",
+                        "cluster_max_payload": 16777216
+                    },
+                    "connection_state": {
+                        "is_connected": true
+                    },
+                    "data_plane_cert_id": "98a1dc23-7b08-4f15-9fbc-c4d594e457d2"
+                }
+            }
+        },
+        "op": "u",
+        "ts_ms": 1706812725062
+    }
